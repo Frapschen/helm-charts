@@ -14,6 +14,10 @@
 
 ## [UNRELEASED]
 
+### Changed
+
+- Support `tpl` evaluation in `podAnnotations` to allow dynamic checksums from parent charts. ([#754](https://github.com/fluent/helm-charts/pull/754)) @Frapschen
+
 ## [v0.58.2] - 2026-09-08
 
 ### Changed
@@ -25,7 +29,6 @@
 ### Changed
 
 - Update _Fluent Bit_ OCI image to [v5.1.1](https://github.com/fluent/fluent-bit/releases/tag/v5.1.1). ([#752](https://github.com/fluent/helm-charts/pull/752)) @stevehipwell
-- Support `tpl` evaluation in `podAnnotations` to allow dynamic checksums from parent charts. ([#754](https://github.com/fluent/helm-charts/pull/754)) @Frapschen
 
 ## [v0.58.0] - 2026-08-12
 
